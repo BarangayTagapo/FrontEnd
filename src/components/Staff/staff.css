@@ -1,0 +1,13 @@
+/* .staff {
+} */
+
+.staff button {
+  padding: 1rem;
+  background: var(--color-red-1);
+  color: #fff;
+}
+
+.staff button.btn-disabled {
+  background: var(--color-gray-2);
+  cursor: not-allowed;
+}

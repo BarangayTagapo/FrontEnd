@@ -1,0 +1,29 @@
+.manageStaff table {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 1rem;
+}
+
+.mangeStaff-heading tr th {
+  width: 100%;
+  text-align: start;
+}
+
+.mangeStaff-heading th {
+  background: var(--color-primary);
+  color: #000;
+}
+
+.manageStaff-body {
+  text-align: center;
+}
+
+.manageStaff-body img {
+  width: 100px;
+  height: 100px;
+  margin: 1rem 0;
+}
+
+.manageStaff-h3 {
+  text-align: center;
+}

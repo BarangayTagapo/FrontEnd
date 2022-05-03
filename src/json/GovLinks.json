@@ -1,0 +1,30 @@
+[
+  {
+    "link": "https://op-proper.gov.ph/",
+    "title": "Office of the President"
+  },
+  {
+    "link": "https://ovp.gov.ph/",
+    "title": "Office of the Vice President"
+  },
+  {
+    "link": "http://legacy.senate.gov.ph/",
+    "title": "Senate of the Philippines"
+  },
+  {
+    "link": "https://www.congress.gov.ph/",
+    "title": "House of Representatives"
+  },
+  {
+    "link": "https://sc.judiciary.gov.ph/",
+    "title": "Supreme Court"
+  },
+  {
+    "link": "https://ca.judiciary.gov.ph/",
+    "title": "Court of Appeals"
+  },
+  {
+    "link": "https://sb.judiciary.gov.ph/",
+    "title": "SandiganBayan"
+  }
+]

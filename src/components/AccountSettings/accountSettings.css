@@ -1,0 +1,20 @@
+.accSetting-content form {
+  border: none !important;
+}
+
+/* isAdmin radio */
+.acc-isAdmin label {
+  display: flex;
+  flex-direction: row !important;
+  gap: 1rem;
+  align-items: center;
+}
+
+.accSetting-content--btn {
+  margin-left: 3rem;
+}
+
+.accSetting-content button {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+}

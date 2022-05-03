@@ -1,0 +1,33 @@
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--color-gray-3);
+  /* background: transparent; */
+  width: 100%;
+  padding: 1rem 2rem;
+  z-index: 5;
+  color: #141414;
+}
+
+.main-nav-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Links */
+.main-nav-content ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.main-nav-content li a {
+  color: #000;
+}
+
+.main-nav-content li button {
+  font-size: inherit;
+  padding: 0.55rem;
+  border-radius: 5px;
+}

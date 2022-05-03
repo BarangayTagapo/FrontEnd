@@ -1,0 +1,40 @@
+/* .dashApp-content {
+} */
+
+.dashApp-content a {
+  width: 50%;
+}
+
+.dashApp-content article {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--color-blur-1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.dashApp-content article ul {
+  width: 100%;
+}
+
+.dashApp-content article ul li form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.dashApp-content article ul li form input[type='submit'] {
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.dashApp-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--color-red-1);
+  padding: 0.5rem;
+  color: #fff;
+}

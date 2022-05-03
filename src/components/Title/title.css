@@ -1,0 +1,22 @@
+.title {
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  position: relative;
+  /* background-image: var(--color-linear-1);
+  background-clip: text;
+  color: transparent; */
+  display: block;
+  color: #000;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 35%;
+  height: 3px;
+  background: var(--color-linear-1);
+  transform: translateX(-50%);
+}

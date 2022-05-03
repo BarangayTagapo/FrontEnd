@@ -1,0 +1,38 @@
+#main-footer {
+  background: var(--color-linear-1);
+}
+
+/* Footer links */
+.main-footer--links {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.main-footer--links h6 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.main-footer--links li a,
+.main-footer--links p {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.main-footer--links div {
+  width: 100%;
+}
+
+/* Copyright */
+.main-footer--copyright {
+  background: var(--color-gray-2);
+  text-align: center;
+  padding: 0.5rem 0;
+  font-weight: 300;
+}
+
+.main-footer--copyright a {
+  font-weight: 500;
+  color: var(--color-blue-1);
+}

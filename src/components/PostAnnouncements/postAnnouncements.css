@@ -1,0 +1,20 @@
+.post-Ann-content form div {
+  margin-bottom: 1rem;
+}
+
+.post-Ann-content form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-Ann-content form input,
+.post-Ann-content form select {
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+.post-Ann-content form input[type='submit'] {
+  font-size: 1.2rem;
+  padding: 0.75rem;
+}

@@ -1,0 +1,62 @@
+.announcement {
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  /* margin-bottom: 2rem; */
+  position: relative;
+}
+
+.announcement-menu {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.25rem;
+}
+
+.announcement-menu button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.announcement-menu button:first-child {
+  background: var(--color-primary);
+}
+
+.announcement-menu button:last-child {
+  background: var(--color-red-1);
+  padding: 1rem;
+  color: #fff;
+}
+
+.announcement-menu button a {
+  color: #fff;
+  padding: 1rem;
+}
+
+.announcement img {
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1rem;
+  max-width: 30vw;
+}
+
+.announcement h4 small {
+  background: var(--color-primary);
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.announcement span {
+  display: flex;
+  gap: 2rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 1rem;
+}
+
+.announcement pre {
+  white-space: pre-wrap;
+  margin-top: 2rem;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 1rem;
+}

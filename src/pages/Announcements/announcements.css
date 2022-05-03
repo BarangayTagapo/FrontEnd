@@ -1,0 +1,17 @@
+/* Categories */
+.announcements-content ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.announcements-content ul button {
+  padding: 10px 1rem;
+  font-size: 1rem;
+}
+
+.announcements-content--posts {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 1rem;
+}

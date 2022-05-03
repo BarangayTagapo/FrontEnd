@@ -1,0 +1,22 @@
+.popup {
+  padding: 1rem;
+  position: fixed;
+  bottom: 10vh;
+  right: 2rem;
+  z-index: 10;
+}
+
+.popup.popup-success {
+  background: green;
+  color: #fff;
+}
+
+.popup.popup-danger {
+  background: var(--color-red-1);
+  color: #fff;
+}
+
+.popup.popup-info {
+  background: var(--color-primary);
+  color: #fff;
+}

@@ -1,0 +1,66 @@
+.about {
+  min-height: 100vh;
+}
+
+.about header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about header p {
+  width: 40vw;
+  text-align: justify;
+}
+
+/* Seal/Logo */
+.about header img {
+  width: 200px;
+  height: 200px;
+}
+
+/* Mission vissions */
+.about-content-MV {
+  display: flex;
+  gap: 10vw;
+  text-align: justify;
+}
+
+.about-content-MV p {
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+.about-content-MV h2 {
+  color: var(--color-primary);
+}
+
+.about-content-MV:last-child {
+  flex-direction: row-reverse;
+}
+
+/* officers */
+.about-content-officers img {
+  width: 200px;
+  height: 200px;
+}
+
+.about-content-officers--content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10vw;
+}
+
+.about-content-officers--content div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-content-officers--content aside {
+  text-align: center;
+}

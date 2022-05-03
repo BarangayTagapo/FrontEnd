@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Variables */
+:root {
+  /* for highlights */
+  /* --color-gray-1: #a19882; */
+  --color-gray-1: #c9aa57;
+  /* Navbar */
+  --color-gray-2: #c2b8a3;
+  --color-gray-3: #fcf8f0;
+  --color-blue-1: #4b7be5;
+  --color-red-1: #b20600;
+  --color-primary: var(--color-gray-1);
+  --color-bg: #f7f7f7;
+  --color-linear-1: linear-gradient(
+    to right,
+    var(--color-primary),
+    var(--color-gray-2)
+  );
+  --color-blur-1: rgba(0, 0, 0, 0.8);
+  --color-blur-2: rgba(0, 0, 0, 0.7);
+  --color-blur-3: rgba(0, 0, 0, 0.5);
+  --color-blur-4: rgba(0, 0, 0, 0.4);
+  --color-blur-5: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-bg);
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Noto Serif', serif;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+h2 {
+  font-size: 2.1rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.4rem;
+}
+
+img {
+  width: 100%;
+}
+
+/* Utilities */
+
+/* Center contents */
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.lead {
+  font-size: 1.2rem;
+}
+
+/* Padding on top & bottom */
+.py-1 {
+  padding: 1rem;
+}
+.py-2 {
+  padding: 2rem;
+}
+.py-3 {
+  padding: 2.5rem;
+}
+.py-4 {
+  padding: 3.5rem;
+}
+
+/* color hover on texts */
+.text-hover-primary {
+  transition: color 0.3s ease-in-out;
+}
+
+.text-hover-primary:hover {
+  color: var(--color-gray-1);
+}
+
+.text-hover-white {
+  transition: color 0.3s ease-in-out;
+}
+
+.text-hover-white:hover {
+  color: #fff;
+}
+
+.text-hover-black {
+  transition: color 0.3s ease-in-out;
+}
+
+.text-hover-black:hover {
+  color: #000;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.btn-green {
+  background-color: rgb(26, 141, 26) !important;
+  color: #fff;
+}
+
+/* shadows */
+.shadow-sm {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.shadow-md {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.shadow-lg {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* heights */
+.minHeight100 {
+  min-height: calc(100vh - 62.39px);
+}
+
+.form-inputs {
+  border: 1px solid #000;
+  padding: 1rem;
+  max-width: 50vw;
+  margin: 0 auto;
+}
+
+.form-inputs div {
+  margin: 1rem 0;
+}
+
+.form-inputs div label {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Inputs */
+.form-inputs input,
+.form-inputs select,
+.form-inputs textarea {
+  padding: 0.65rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Textarea/purpose */
+.form-inputs textarea {
+  resize: vertical;
+  height: 10vh;
+}
+
+/* File */
+.form-inputs input[type='file'] {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.form-inputs input[type='submit'] {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+}

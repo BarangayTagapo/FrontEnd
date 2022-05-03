@@ -1,0 +1,26 @@
+.contact-content--hotlines {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.contact-content--hotlines article {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* map */
+.contact-content footer {
+  display: flex;
+  align-items: center;
+}
+
+.contact-content footer address {
+  color: var(--color-primary);
+}
+
+.contact-content footer img {
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
