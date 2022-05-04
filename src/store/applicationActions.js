@@ -17,15 +17,16 @@ export const deleteApplication = (id) => async (dispatch) => {
   confirm &&
     (await authAxios
       .delete(`${url}/applications/${id}`)
-      .then((resp) =>
+      .then((resp) => {
         dispatch(
           popupActions.triggerPopup({
             display: true,
             type: 'success',
             message: resp.data.message,
           })
-        )
-      )
+        );
+        dispatch(fetchAllApplications());
+      })
       .catch((err) =>
         dispatch(
           popupActions.triggerPopup({
