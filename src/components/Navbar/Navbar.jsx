@@ -1,9 +1,7 @@
 import React from 'react';
 import './navbar.css';
 
-const Navbar = () => {
-  const token = localStorage.getItem('BrgyTagapoToken');
-
+const Navbar = ({ user }) => {
   // Logout account
   const handleLogout = () => {
     // Remove token from local storage
@@ -40,7 +38,7 @@ const Navbar = () => {
             {/* Only display when an account is present */}
             <button
               onClick={handleLogout}
-              style={token ? { display: 'block' } : { display: 'none' }}
+              style={user ? { display: 'block' } : { display: 'none' }}
               className='btn btn-primary'
             >
               Logout

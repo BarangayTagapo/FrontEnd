@@ -6,9 +6,8 @@ import ManageStaffs from '../../components/ManageStaffs/ManageStaffs';
 import PostAnnouncements from '../../components/PostAnnouncements/PostAnnouncements';
 import Applications from '../../components/Applications/Applications.jsx';
 
-const Dashboard = () => {
+const Dashboard = ({ user }) => {
   // User token
-  const token = localStorage.getItem('BrgyTagapoToken');
 
   return (
     <section className='dashboard py-4 minHeight100'>
@@ -33,7 +32,7 @@ const Dashboard = () => {
         {/* Content */}
         <div className='dashboard-content--container shadow-md'>
           <div className='dashboard-content--container--current'>
-            {token ? (
+            {user ? (
               <Routes>
                 <Route path='/account-settings' element={<AccountSettings />} />
                 <Route path='/manage-staffs' element={<ManageStaffs />} />

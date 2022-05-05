@@ -28,6 +28,7 @@ const App = () => {
   const token = localStorage.getItem('BrgyTagapoToken');
   // PopupMessage infos
   const popupMessage = useSelector((state) => state.popup);
+  const user = useSelector((state) => state.user.userInfo);
 
   // Fethc user's data when token is present
   useEffect(() => {
@@ -37,7 +38,7 @@ const App = () => {
   return (
     <Router>
       <SkipBtn navHeight={navHeight} />
-      <Navbar />
+      <Navbar user={user.fName} />
       {/* Popup message */}
       {popupMessage.display && (
         <PopupMessage
@@ -60,14 +61,17 @@ const App = () => {
         <Route
           path='/login'
           element={
-            token ? (
+            user.fName ? (
               <Navigate to='/admin-dashboard/account-settings' />
             ) : (
               <Login />
             )
           }
         />
-        <Route path='/admin-dashboard/*' element={<Dashboard />} />
+        <Route
+          path='/admin-dashboard/*'
+          element={<Dashboard user={user.fName} />}
+        />
         <Route path='/contact' element={<Contact />} />
         <Route
           path='/online-applications'
