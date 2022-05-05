@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import chairman from '../../images/chairman.png';
+import chairman from '../../images/2x2.png';
 import Title from '../Title/Title';
 import Seal from '../../images/seal.png';
 
