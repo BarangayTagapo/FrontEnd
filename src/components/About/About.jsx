@@ -12,8 +12,8 @@ const About = () => {
           <img src={Seal} alt='logo' />
           <p className='lead'>
             Tagapo is a barangay in the city of Santa Rosa, in the province of
-            Laguna. Its population as determined by the 2020 Census was 42,104.
-            This represented 10.15% of the total population of Santa Rosa.
+            Laguna. Its population as determined was 38,246 as of October 2022.
+            
           </p>
         </header>
 
