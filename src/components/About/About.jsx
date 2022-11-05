@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import chairman from '../../images/arturo.jpg';
 import Title from '../Title/Title';
-import Seal from '../../images/tagapologo.png';
+import Seal from '../../images/taga.jpg';
 
 const About = () => {
   return (

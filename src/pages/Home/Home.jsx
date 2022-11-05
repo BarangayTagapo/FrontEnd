@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import bgImage from '../../images/sanpedro2.jpg';
+import bgImage from '../../images/po.jpg';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 import About from '../../components/About/About';
 
@@ -10,7 +10,7 @@ const Home = () => {
       {/* Header */}
       <header className='home'>
         {/* background image */}
-        <img src={bgImage} alt='tagapo' />
+        <img src={bgImage} alt='po.jpg' />
         <div className='home-content container'>
           <span className='home-quote-left'>
             <ImQuotesLeft />
