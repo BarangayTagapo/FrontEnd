@@ -2,14 +2,14 @@ import React from 'react';
 import './about.css';
 import chairman from '../../images/arturo.jpg';
 import Title from '../Title/Title';
-import Seal from '../../images/taga.jpg';
+import taga from '../../images/taga.jpg';
 
 const About = () => {
   return (
     <main className='about container py-4' id='main-content'>
       <div className='about-content'>
         <header className='py-1'>
-          <img src={Seal} alt='logo' />
+          <img src={taga} alt='logo' />
           <p className='lead'>
             Tagapo is a barangay in the city of Santa Rosa, in the province of
             Laguna. Its population as determined was 38,246 as of October 2022.
