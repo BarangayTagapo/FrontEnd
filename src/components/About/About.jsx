@@ -23,12 +23,16 @@ const About = () => {
             <aside>
               <h5>Barangay Officers</h5>
               <ul>
-                <li>Officer A. Kagawad</li>
-                <li>OfficerB C. Kagawad</li>
-                <li>Kagawad D. Officer</li>
-                <li>Officer A. Kagawad</li>
-                <li>Officer A. Kagawad</li>
-                <li>Officer A. Kagawad</li>
+                <li>KGG. LEONARDO M. LIANZA</li>
+                <li>KGG. ROLANDO A. BATO</li>
+                <li>KGG. PEPITO DC TATLONGHARI</li>
+                <li>KGG. ADJAR M. LUMAGUE</li>
+                <li>KGG. MANUEL G. ALON</li>
+                <li>KGG. EDISON P. CARAVANA</li>
+                <li>KGG. ROAN KHATE P. BARRINUEVO</li>
+                <li>INGAT-YAMAN. JEORGE V. BUBAN JR</li>
+                <li>KALIHIM. MYLENE B. CARDENAL</li>
+                <li>SK CHAIRMAN KGG. DUNCAN S. AMARANTE</li>
               </ul>
             </aside>
             <div>
@@ -38,22 +42,20 @@ const About = () => {
           </div>
         </article>
 
-        {/* MV - Mission Vission */}
+        {/* MV - Mission Vision */}
         <div className='about-content-MV py-3'>
           <h2>Mission</h2>
           <p>
-            We shall pursue a comprehensive program that will enhance the
-            socio-cultural life of San Pedronians, promote the growth of the
-            local and regional economy, ensure ecological balance, and
-            institutionalize effective governance.
+          “Maisakatuparan ang lahat ng serbisyo na ibinigay ng barangay para sa mga 
+          mamamayan at sa komunidad na nasasakupan, ng buong husay at katapatan.”
           </p>
         </div>
         <div className='about-content-MV py-3'>
-          <h2>Vission</h2>
+          <h2>Vision</h2>
           <p>
-            A highly urbanized and self-reliant community of inspired and
-            empowered citizenry, living in a healthy environment, and
-            effectively governed by honest and dedicated public servants.
+          “Isang barangay na maunlad at may kakayahang tumindig sa sarili na may mga 
+          mamamayang nagkakaisa, sumusunod sa alituntunin sa pangunguna ng 
+          isang mahusay na pangangasiwa tungo sa pag-unlad.”
           </p>
         </div>
       </div>
