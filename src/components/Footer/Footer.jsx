@@ -51,10 +51,10 @@ const Footer = () => {
           </a>{' '}
           | Developed by:{' '}
           <a
-            href='https://www.youtube.com/watch?v=BBJa32lCaaY'
+            href='https://barangay-tagapo.netlify.app/'
             className='text-hover-white'
           >
-            Emman Castillo, Marc emmanuel Lalap, Jan Angelo Ugalino
+            Emmanuel John Castillo, Marc Emmanuel Lalap, Jan Angelo Ugalino
           </a>
         </h6>
       </div>
