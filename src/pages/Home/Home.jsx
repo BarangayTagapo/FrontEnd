@@ -10,7 +10,7 @@ const Home = () => {
       {/* Header */}
       <header className='home'>
         {/* background image */}
-        <img src={bgImage} alt='san pedro' />
+        <img src={bgImage} alt='tagapo' />
         <div className='home-content container'>
           <span className='home-quote-left'>
             <ImQuotesLeft />
