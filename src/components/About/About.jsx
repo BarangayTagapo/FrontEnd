@@ -37,7 +37,8 @@ const About = () => {
             </aside>
             <div>
               <img src={chairman} alt='brgy chairman' />
-              <h4>Punong Barangay. ARTURO S. CATINDIG</h4>
+              <h4>Punong Barangay. 
+                ARTURO S. CATINDIG</h4>
             </div>
           </div>
         </article>
