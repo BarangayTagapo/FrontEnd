@@ -37,7 +37,7 @@ const About = () => {
             </aside>
             <div>
               <img src={chairman} alt='brgy chairman' />
-              <h4>Barangay Chairman. 
+              <h4 style="text-align:center">Barangay Chairman. 
                 ARTURO S. CATINDIG</h4>
             </div>
           </div>
