@@ -18,10 +18,10 @@ const About = () => {
         </header>
 
         <article className='about-content-officers py-3'>
-          <Title text='Chairman and Officers' />
+          <Title text='Chairman,Councilors and Officers' />
           <div className='about-content-officers--content py-3'>
             <aside>
-              <h5>Barangay Councilors</h5>
+              <h5>Barangay Councilors And Officers</h5>
               <ul>
                 <li>KGG. LEONARDO M. LIANZA</li>
                 <li>KGG. ROLANDO A. BATO</li>
