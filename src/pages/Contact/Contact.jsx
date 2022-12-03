@@ -100,7 +100,7 @@ const Contact = () => {
         <footer>
           <h3>
             Or you can visit us on{' '}
-            <address>Bgy Tagapo Street, Purok 5, Santa Rosa City, Laguna</address>
+            <address>Brgy Tagapo Street, Purok 5, Santa Rosa City, Laguna</address>
           </h3>
           <img
             src={brgyHallMap}
