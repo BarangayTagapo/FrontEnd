@@ -100,7 +100,7 @@ const Contact = () => {
         <footer>
           <h3>
             Or you can visit us on{' '}
-            <address>129 Rizal Blvd, Balibago, Santa Rosa, Laguna</address>
+            <address>Bgy Tagapo Street, Purok 5, Santa Rosa City, Laguna</address>
           </h3>
           <img
             src={brgyHallMap}
