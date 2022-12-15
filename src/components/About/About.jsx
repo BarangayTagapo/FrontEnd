@@ -54,7 +54,7 @@ const About = () => {
         <div className='about-content-MV py-3'>
           <h2>Vision</h2>
           <p>
-          “Isang barangay na maunlad at may kakayahang tumindig sa sarili na may mga 
+          “Isan barangay na maunlad at may kakayahang tumindig sa sarili na may mga 
           mamamayang nagkakaisa, sumusunod sa alituntunin sa pangunguna ng 
           isang mahusay na pangangasiwa tungo sa pag-unlad.”
           </p>
